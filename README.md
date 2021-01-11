@@ -33,3 +33,6 @@ This project uses spaced repetition to allow the user to create an account, lear
 
 ### POST '/api/auth'
 Posting a login with a username and password, this endpoint will make sure they match and will create a json web token
+
+### GET '/api/language/'
+Endpoint will get the words for the user
