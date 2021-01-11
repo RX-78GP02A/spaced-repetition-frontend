@@ -19,3 +19,12 @@ This project uses spaced repetition to allow the user to create an account, lear
 - React-Router
 - Context
 - Cypress (testing)
+
+### Backend
+- NodeJs
+- Express
+- Knex
+- CORS
+- Chai, Mocha, supertest (testing)
+- Frontend
+- PostgreSQL
