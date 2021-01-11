@@ -34,3 +34,9 @@
         "not ie <= 11",
         "not op_mini all"
       ],
+      "devDependencies": {
+        "cypress": "^6.2.1",
+        "jsonwebtoken": "^8.5.0",
+        "unfetch": "^4.1.0"
+      }
+    }
