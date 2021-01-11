@@ -17,3 +17,11 @@
       "react-spinners-kit": "^1.9.0",
       "styled-components": "^4.3.2"
     },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "cypress:open": "cypress open",
+        "cypress:run": "cypress run"
+      },
