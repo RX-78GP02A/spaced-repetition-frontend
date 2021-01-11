@@ -42,3 +42,6 @@ Endpoint will get the word the user is learning next
 
 ### GET '/api/language/guess'
 Endpoint will get the user's guess and compare it to the translation in the database
+
+### POST '/api/user/
+Endpoint will post a new user when signing up, only needing a Username, Name, and Password
