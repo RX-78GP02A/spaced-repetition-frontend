@@ -36,3 +36,6 @@ Posting a login with a username and password, this endpoint will make sure they 
 
 ### GET '/api/language/'
 Endpoint will get the words for the user
+
+### GET '/api/language/head'
+Endpoint will get the word the user is learning next
