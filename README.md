@@ -28,3 +28,8 @@ This project uses spaced repetition to allow the user to create an account, lear
 - Chai, Mocha, supertest (testing)
 - Frontend
 - PostgreSQL
+
+## API documentation
+
+### POST '/api/auth'
+Posting a login with a username and password, this endpoint will make sure they match and will create a json web token
