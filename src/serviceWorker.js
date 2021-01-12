@@ -124,7 +124,7 @@ function checkValidServiceWorker(swUrl, config) {
         'No internet connection found. App is running in offline mode.'
       );
     });
-}
+};
 
 export function unregister() {
   if ('serviceWorker' in navigator) {
@@ -132,4 +132,4 @@ export function unregister() {
       registration.unregister();
     });
   }
-}
+};
