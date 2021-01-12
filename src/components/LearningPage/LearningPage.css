@@ -1,0 +1,16 @@
+div.Card-Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    min-height:450px;
+    margin-top:50px;
+};
+
+.flippy-container {
+    width: 75%;
+    max-width: 800px;
+    height: 100%;
+    background: rgba(255,255,255,0.5)
+};
+
