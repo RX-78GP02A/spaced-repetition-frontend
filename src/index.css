@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+};
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(img/torii-gate.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+};
+
+:root {
+  --font-size: calc(10px + 1vmin);
+};
+
+a {
+  text-decoration: none;
+  color: black;
+};
+
+button {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #000;
+};
+
+i {
+  cursor: pointer;
+};
