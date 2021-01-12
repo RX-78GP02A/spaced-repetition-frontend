@@ -31,6 +31,10 @@ This project uses spaced repetition to allow the user to create an account, lear
 - Frontend
 - PostgreSQL
 
+
+## Screenshots
+
+
 ## API documentation
 
 ### POST '/api/auth'
@@ -47,3 +51,5 @@ Endpoint will get the user's guess and compare it to the translation in the data
 
 ### POST '/api/user/
 Endpoint will post a new user when signing up, only needing a Username, Name, and Password
+
+## Tests
