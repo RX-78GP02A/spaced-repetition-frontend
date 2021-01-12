@@ -7,7 +7,7 @@ class RegistrationRoute extends Component {
     history: {
       push: () => {},
     },
-  };
+  }
 
   handleRegistrationSuccess = () => {
     const { history } = this.props
