@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Loading from '../Loading/Loading'
-import { BackSide } from 'react-flippy'
-import './AnswerCard.css'
+import React, { Component } from 'react';
+import Loading from '../Loading/Loading';
+import { BackSide } from 'react-flippy';
+import './AnswerCard.css';
 
 export class AnswerCard extends Component {
   render() {
@@ -26,6 +26,6 @@ export class AnswerCard extends Component {
       </BackSide>
     )
   }
-}
+};
 
-export default AnswerCard
+export default AnswerCard;
