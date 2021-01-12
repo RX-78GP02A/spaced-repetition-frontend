@@ -1,0 +1,13 @@
+.submit.stylish-btn {
+  font-size: 20px;
+  margin: .5em auto;
+};
+
+.already-signed-up {
+  display: flex;
+  justify-content: center;
+  padding-top: .5em;
+};
+.Error{
+  color:red;
+};
