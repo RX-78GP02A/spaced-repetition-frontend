@@ -1,0 +1,54 @@
+.Word-Container h2{
+  font-size: 2.5em;
+};
+
+@media screen and (max-width: 630px) {
+  #User-Guess > label {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  #User-Guess > label > input {
+    margin-top : .5em;
+    width: 85%;
+    padding: 8px 10px;
+  }
+
+  .Word-Container h2 {
+    font-size: 2em;
+  }
+};
+
+#User-Guess{
+  margin-top: 1em;
+  width: 100%;
+};
+
+.Submit-Btn{
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+};
+
+#User-Guess input{
+  background-color:white;
+  border:1px solid black;
+};
+
+
+.Word-Container > h2 {
+  margin-bottom: .25em;
+};
+
+.Word-Container > .loading-container, .results-container > .loading-container {
+  margin: 0;
+};
+
+.results-container, .Word-Container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+};
