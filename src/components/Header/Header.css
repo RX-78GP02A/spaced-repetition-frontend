@@ -9,7 +9,7 @@ nav {
   overflow-x: hidden;
   padding-top: 60px;
   transition: .6s;
-}
+};
 
 nav > .nav-link {
   padding: 8px 8px 8px 32px;
@@ -17,11 +17,11 @@ nav > .nav-link {
   font-size: 25px;
   display: block;
   transition : .3s;
-}
+};
 
 nav .nav-link:hover {
   color: #f1f1f1;
-}
+};
 
 nav .closebtn {
   position: absolute;
@@ -30,7 +30,7 @@ nav .closebtn {
   font-size: 36px;
   margin-left: 50px;
   color: grey;
-}
+};
   
 .shadowbox {
   box-shadow: 10px 10px 10px #000;
@@ -41,17 +41,17 @@ nav .closebtn {
   color: white;
   background-color: #111;
   margin: 10px;
-}
+};
 
 @media screen and (max-height: 450px) {
   nav {padding-top: 15px;}
   nav .nav-link {font-size: 18px;}
-}
+};
 
 .fa-bars {
   margin: .5em;
   color: darkslategrey;
-}
+};
 
 header > h1 {
   text-align: center;
