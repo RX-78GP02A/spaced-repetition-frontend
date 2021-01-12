@@ -1,0 +1,14 @@
+.login-form, .registration-page, .not-found-page {
+  display: flex;
+  flex-flow: column wrap;
+  height: 85vh;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-right: 3%;
+  margin-left: 3%;
+};
+
+section {
+  text-align: center;
+};
