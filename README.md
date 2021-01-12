@@ -53,3 +53,5 @@ Endpoint will get the user's guess and compare it to the translation in the data
 Endpoint will post a new user when signing up, only needing a Username, Name, and Password
 
 ## Tests
+
+<img width="707" alt="Screen Shot 2021-01-12 at 2 21 16 PM" src="https://user-images.githubusercontent.com/67432727/104367807-4f54c200-54e9-11eb-8701-3a6b59a46fc6.png">
