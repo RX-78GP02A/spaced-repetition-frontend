@@ -1,4 +1,4 @@
-import jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken'
 
 export function makeLoginToken() {
   const loginUser = {
@@ -10,4 +10,4 @@ export function makeLoginToken() {
     expiresIn: '2m',
     algorithm: 'HS256',
   })
-};
+}

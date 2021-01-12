@@ -1,5 +1,5 @@
 import TokenService from './token-service';
-import config from '../config';
+import config from '../config'
 
 const dashboardService ={
     fetchWords(){
@@ -14,6 +14,5 @@ const dashboardService ={
               : res.json()
           )
     }
-};
-
+}
 export default dashboardService;

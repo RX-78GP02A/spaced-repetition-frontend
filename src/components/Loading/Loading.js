@@ -1,5 +1,5 @@
-import React from 'react';
-import { MagicSpinner } from 'react-spinners-kit';
+import React from 'react'
+import { MagicSpinner } from 'react-spinners-kit'
 
 export default function Loading(props) {
   return (
@@ -12,4 +12,4 @@ export default function Loading(props) {
       />
     </div>   
   )
-};
+}

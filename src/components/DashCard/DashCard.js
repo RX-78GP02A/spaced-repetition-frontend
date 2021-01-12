@@ -16,4 +16,4 @@ export default function DashCard(props){
             </div>
         )
     })
-};
+}

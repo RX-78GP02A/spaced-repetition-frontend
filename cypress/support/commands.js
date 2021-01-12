@@ -1,4 +1,4 @@
-import * as helpers from './helpers';
+import * as helpers from './helpers'
 
 Cypress.Commands.add('login', (options = {}) => {
   cy.visit('/login')
@@ -9,4 +9,4 @@ Cypress.Commands.add('login', (options = {}) => {
         helpers.makeLoginToken(),
       )
     })
-});
+})

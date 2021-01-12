@@ -1,9 +1,9 @@
 import React from 'react';
 import './LearningPage.css';
 import Flippy from 'react-flippy';
-import LearningPageService from '../../services/learningpage-service';
-import GuessCard from '../GuessCard/GuessCard';
-import AnswerCard from '../AnswerCard/AnswerCard';
+import LearningPageService from '../../services/learningpage-service'
+import GuessCard from '../GuessCard/GuessCard'
+import AnswerCard from '../AnswerCard/AnswerCard'
 
 class LearningPage extends React.Component{
     constructor(){
@@ -91,6 +91,5 @@ class LearningPage extends React.Component{
         )
     }
 
-};
-
-export default LearningPage;
+}
+export default LearningPage

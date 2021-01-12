@@ -1,8 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
-};
+}
 
 body {
   margin: 0;
@@ -15,11 +16,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-};
+}
 
 :root {
   --font-size: calc(10px + 1vmin);
-};
+}
 
 a {
   text-decoration: none;
@@ -29,8 +30,10 @@ a {
 button {
   cursor: pointer;
   box-shadow: 10px 10px 10px #000;
-};
+}
 
 i {
   cursor: pointer;
-};
+}
+
+

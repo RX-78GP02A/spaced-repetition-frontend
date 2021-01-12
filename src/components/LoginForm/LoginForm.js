@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Input, Label } from '../Form/Form';
-import AuthApiService from '../../services/auth-api-service';
-import UserContext from '../../contexts/UserContext';
-import Button from '../Button/Button';
-import './LoginForm.css';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Input, Label } from '../Form/Form'
+import AuthApiService from '../../services/auth-api-service'
+import UserContext from '../../contexts/UserContext'
+import Button from '../Button/Button'
+import './LoginForm.css'
 
 class LoginForm extends Component {
   static defaultProps = {
@@ -91,6 +91,6 @@ class LoginForm extends Component {
       </form>
     )
   }
-};
+}
 
-export default LoginForm;
+export default LoginForm

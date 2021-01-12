@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import LearningPage from '../../components/LearningPage/LearningPage';
 
 class LearningRoute extends Component {
@@ -9,6 +9,6 @@ class LearningRoute extends Component {
       </section>
     );
   }
-};
+}
 
-export default LearningRoute;
+export default LearningRoute

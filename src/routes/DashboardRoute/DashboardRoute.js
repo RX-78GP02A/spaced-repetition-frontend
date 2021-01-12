@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Dashboard from '../../components/DashBoard/DashBoard';
 
 class DashboardRoute extends Component {
@@ -9,6 +9,6 @@ class DashboardRoute extends Component {
       </section>
     );
   }
-};
+}
 
-export default DashboardRoute;
+export default DashboardRoute

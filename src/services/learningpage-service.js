@@ -1,5 +1,5 @@
 import TokenService from './token-service';
-import config from '../config';
+import config from '../config'
 
 const LearningPageService ={
     fetchWordHead(){
@@ -28,6 +28,6 @@ const LearningPageService ={
               : res.json()
           )
     }
-};
+}
 
 export default LearningPageService;

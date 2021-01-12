@@ -1,42 +1,42 @@
 {
-    "name": "spaced-repitition",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-      "@fortawesome/fontawesome-svg-core": "^1.2.15",
-      "@fortawesome/free-solid-svg-icons": "^5.7.2",
-      "@fortawesome/react-fontawesome": "^0.1.4",
-      "axios": "^0.21.1",
-      "classnames": "^2.2.6",
-      "jwt-decode": "^2.2.0",
-      "react": "^16.8.3",
-      "react-dom": "^16.8.3",
-      "react-flippy": "^0.1.5",
-      "react-router-dom": "^4.3.1",
-      "react-scripts": "^4.0.1",
-      "react-spinners-kit": "^1.9.0",
-      "styled-components": "^4.3.2"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "cypress:open": "cypress open",
-        "cypress:run": "cypress run"
-      },
-      "eslintConfig": {
-        "extends": "react-app"
-      },
-      "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-      ],
-      "devDependencies": {
-        "cypress": "^6.2.1",
-        "jsonwebtoken": "^8.5.0",
-        "unfetch": "^4.1.0"
-      }
-    }
+  "name": "spaced-repitition",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-flippy": "^0.1.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^4.0.1",
+    "react-spinners-kit": "^1.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cypress": "^6.2.1",
+    "jsonwebtoken": "^8.5.0",
+    "unfetch": "^4.1.0"
+  }
+}

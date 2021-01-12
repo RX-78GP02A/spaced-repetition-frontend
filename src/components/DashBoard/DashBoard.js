@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import DashboardService from '../../services/dashboard-service';
 import DashCard from '../DashCard/DashCard';
-import UserContext from '../../contexts/UserContext';
-import Loading from '../Loading/Loading';
-import './DashBoard.css';
+import UserContext from '../../contexts/UserContext'
+import Loading from '../Loading/Loading'
+import './DashBoard.css'
 
 export default class Dashboard extends React.Component{
     static contextType = UserContext
@@ -80,4 +80,4 @@ export default class Dashboard extends React.Component{
             </div>
         )
     }
-};
+}

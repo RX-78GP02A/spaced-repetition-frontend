@@ -18,4 +18,4 @@ describe(`User story: Application name and purpose`, function() {
         'Practice learning a language with the spaced reptition revision technique.'
       )
   })
-});
+})

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Loading from '../Loading/Loading';
-import { FrontSide } from 'react-flippy';
-import './GuessCard.css';
+import React, { Component } from 'react'
+import Loading from '../Loading/Loading'
+import { FrontSide } from 'react-flippy'
+import './GuessCard.css'
 
 export class GuessCard extends Component {
   render() {
@@ -24,6 +24,6 @@ export class GuessCard extends Component {
       </FrontSide>
     )
   }
-};
+}
 
-export default GuessCard;
+export default GuessCard

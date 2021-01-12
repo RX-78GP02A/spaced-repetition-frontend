@@ -2,11 +2,11 @@
   margin-bottom: 1em;
   display: flex;
   flex-flow: column wrap;
-};
+}
 
 label {
   padding-bottom: .5em;
-};
+}
 
 input {
   width: 40%;
@@ -15,7 +15,7 @@ input {
   font-size: 18px;
   border: none;
   background-color: #CDCDCD;
-};
+}
 
 .signup-btn {
   width: 40%;
@@ -27,4 +27,4 @@ input {
   margin-bottom: .5em;
   cursor: pointer;
   color: white;
-};
+}
