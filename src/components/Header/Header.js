@@ -22,9 +22,9 @@ class Header extends Component {
   renderLogoutLink() {
     return (
       <div>
-        <i className="fas fa-bars fa-2x open" onClick={this.openNav}></i>
+        <i className="fas fa-bars fa-4x open" onClick={this.openNav}></i>
         <nav id="nav">
-        <i className="fas fa-bars fa-2x closebtn" onClick={this.closeNav}></i>
+        <i className="fas fa-bars fa-4x closebtn" onClick={this.closeNav}></i>
           <Link 
             id='home'
             className='nav-link'
