@@ -13,14 +13,14 @@ nav {
 
 nav > .nav-link {
   padding: 8px 8px 8px 32px;
-  color: #818181;
+  color: #f1f1f1;
   font-size: 25px;
   display: block;
   transition : .3s;
 }
 
 nav .nav-link:hover {
-  color: #f1f1f1;
+  color: #818181;
 }
 
 nav .closebtn {
