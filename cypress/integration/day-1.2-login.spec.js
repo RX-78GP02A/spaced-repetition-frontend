@@ -194,7 +194,7 @@ describe(`User story: Login`, function() {
           .should('have.length', 2)
           .and('have.text', 'HomeLogout')
           .and('have.attr', 'href', '/')
-        cy.get('i[class="fas fa-bars fa-5x open"]')
+        cy.get('i[class="fas fa-bars fa-3x open"]')
           .click()
         cy.get('#logout')
           .click()
